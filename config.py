@@ -20,6 +20,7 @@ WEBSOCKET_ENDPOINTS = [
     "wss://ws7.blitzortung.org",
     "wss://ws8.blitzortung.org",
     "wss://www.seismicportal.eu/standing_order/websocket",
+    "wss://certstream.calidog.io/"
 ]
 
 BLITZORTUNG_ENDPOINTS = [
