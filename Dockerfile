@@ -4,7 +4,8 @@ FROM python:3.10-slim as builder
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN apt-get update && apt-get install -y libsnappy-dev
+RUN pip install --no-cache-dir -r requirements.txt python-snappy
 
 FROM python:3.10-slim
 
