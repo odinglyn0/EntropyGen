@@ -1,5 +1,5 @@
 # requirements.txt
-websockets
+websockets>=10.0
 kafka-python
 psutil
 python-json-logger
